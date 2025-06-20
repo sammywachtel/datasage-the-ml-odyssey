@@ -16,6 +16,16 @@ This tutorial is designed for:
 
 This tutorial consists of **22 modules** across **5 phases**, taking you from mathematical foundations to real-world deployment:
 
+
+---
+
+## 🚧 Development Status
+
+**Phase 01: Foundations** - Complete with all learning materials available.  
+**Phases 02-05** - Currently under development. Additional materials will be added soon.
+
+---
+
 ### 📐 Phase 01: Foundations (Modules 01-05)
 **Mathematical and Programming Foundations**
 - **01. Linear Algebra**: Vectors, matrices, transformations - the geometric language of ML
@@ -112,13 +122,6 @@ By completing this tutorial, you will:
 Start your machine learning journey with **Phase 01: Foundations**. Remember, building a strong mathematical foundation will make all subsequent learning much easier and more intuitive.
 
 **Next Step**: Navigate to `Phase_01_Foundations/README.md` to begin your comprehensive ML education!
-
----
-
-## 🚧 Development Status
-
-**Phase 01: Foundations** - Complete with all learning materials available.  
-**Phases 02-05** - Currently under development. Additional materials will be added soon.
 
 ---
 
