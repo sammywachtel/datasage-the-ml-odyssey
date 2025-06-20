@@ -3,6 +3,8 @@
 ## 📘 Overview
 This review is your bridge between foundational concepts and real-world machine learning. It reinforces understanding, strengthens connections across topics, and prepares you for the classical ML models you'll encounter next.
 
+> 💻 **Hands-On Practice**: This theory guide pairs with [05_checkpoint1_review.ipynb](05_checkpoint1_review.ipynb) for interactive review exercises and comprehensive practice problems.
+
 ---
 
 ## 🧠 Comprehensive Topic Recap
@@ -161,4 +163,3 @@ These questions are designed to test recall and fluency for common technical int
 - Reframe questions: “Instead of code, explain what `df.describe()` is doing logically.”
 
 ---
-

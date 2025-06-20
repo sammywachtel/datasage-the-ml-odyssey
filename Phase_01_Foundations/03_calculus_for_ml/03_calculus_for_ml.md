@@ -3,6 +3,8 @@
 ## 📘 Overview
 Calculus provides the mathematical tools to understand how models learn and optimize. This file complements the notebook with derivations, analogies, and instructional support.
 
+> 💻 **Hands-On Practice**: This theory guide pairs with [03_calculus_for_ml.ipynb](03_calculus_for_ml.ipynb) for interactive gradient descent demonstrations and optimization exercises.
+
 ---
 
 ## 🧠 Key Concepts

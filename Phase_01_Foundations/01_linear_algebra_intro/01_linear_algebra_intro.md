@@ -3,6 +3,8 @@
 ## 📘 Overview
 This file provides a conceptual and instructional guide for the AI tutor and student. It complements the Jupyter notebook with analogies, mathematical insights, and quizzing strategies.
 
+> 💻 **Hands-On Practice**: This theory guide pairs with [01_linear_algebra_intro.ipynb](01_linear_algebra_intro.ipynb) for interactive coding exercises and visualizations.
+
 ---
 
 ## 🧠 Key Concepts

@@ -3,6 +3,8 @@
 ## 📘 Overview
 This file supports the hands-on Python notebook and helps develop practical fluency in the core libraries used in nearly every machine learning pipeline.
 
+> 💻 **Hands-On Practice**: This theory guide pairs with [04_python_tooling.ipynb](04_python_tooling.ipynb) for interactive coding exercises with pandas, NumPy, matplotlib, and scikit-learn.
+
 ---
 
 ## 🧠 Key Concepts

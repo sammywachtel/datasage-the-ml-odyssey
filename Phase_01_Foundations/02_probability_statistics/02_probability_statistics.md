@@ -3,6 +3,8 @@
 ## 📘 Overview
 Probability is how we measure uncertainty, and statistics is how we learn from data. This file complements the notebook with concepts, derivations, visual intuition, and tutor instructions.
 
+> 💻 **Hands-On Practice**: This theory guide pairs with [02_probability_statistics.ipynb](02_probability_statistics.ipynb) for interactive simulations and visualizations.
+
 ---
 
 ## 🧠 Key Concepts
