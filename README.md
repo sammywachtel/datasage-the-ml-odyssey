@@ -115,4 +115,11 @@ Start your machine learning journey with **Phase 01: Foundations**. Remember, bu
 
 ---
 
+## 🚧 Development Status
+
+**Phase 01: Foundations** - Complete with all learning materials available.  
+**Phases 02-05** - Currently under development. Additional materials will be added soon.
+
+---
+
 *💡 **Success Tip**: Machine learning is a journey, not a destination. Embrace the challenge, celebrate small wins, and remember that every expert was once a beginner. You've got this! 🚀*
