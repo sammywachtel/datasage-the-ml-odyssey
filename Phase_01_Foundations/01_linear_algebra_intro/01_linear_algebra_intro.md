@@ -254,8 +254,7 @@ Here's the breakdown:
 
 **Visual understanding**:
 
-<img src="assets/Vector%203-4%20with%20Magnitude%20and%20Angle.png" width="400" height="400"/>
-
+<img src="../../assets/p01_01_vector_3-4_with_mag_and_angle.png" width="400" height="400" alt="Vector [3, 4] with Magnitude and Angle"/>
 
 **Why direction matters in ML**:
 - **Similarity**: Vectors pointing in similar directions represent similar data

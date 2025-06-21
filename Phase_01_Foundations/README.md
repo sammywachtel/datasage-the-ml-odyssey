@@ -11,6 +11,8 @@ This phase covers the core mathematical concepts that underpin machine learning:
 - **Python Tooling**: Essential libraries and development practices
 - **Checkpoint Review**: Consolidation and assessment
 
+![Phase 01 Structure](../assets/p01_mindmap.png)
+
 ## 📚 Learning Path
 
 Each module contains both theoretical foundations (`.md` files) and hands-on practice (`.ipynb` notebooks):
