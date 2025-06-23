@@ -192,7 +192,7 @@ y ↑
 3 | .  .  .  │  .  .
 2 | .  .  .  │  .  .
 1 | .  .  .  │  .  .
-0 | ●────────┘  .  .      ← vector base at (0, 0)
+0 ||||| ●────────┘  .  .      ← vector base at (0, 0)
     0  1  2  3  4  5 → x
 
 Length = √(3² + 4²) = √25 = 5  
@@ -312,7 +312,7 @@ Combines transformations. Order matters (<span style="color: #F44336; font-famil
 <div style="background-color: #FFFFFF; border-left: 4px solid #4CAF50; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
 <h4 style="color: #2E7D32; margin-top: 0;">📐 Formula</h4>
 <div style="text-align: center; font-size: 1.3em; margin: 20px 0; padding: 15px; background-color: #F1F8E9; border-radius: 8px;">
-$$\mathbf{a} \cdot \mathbf{b} = \|a\| \|b\| \cos(\theta)$$
+<img src="https://latex.codecogs.com/svg.latex?\mathbf{a}\cdot\mathbf{b}=\|\mathbf{a}\|\|\mathbf{b}\|\cos(\theta)" alt="Dot Product Formula" style="background-color: white; padding: 10px; border-radius: 5px;">
 </div>
 </div>
 
@@ -322,31 +322,31 @@ $$\mathbf{a} \cdot \mathbf{b} = \|a\| \|b\| \cos(\theta)$$
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
 
 <div style="background-color: #E3F2FD; border-radius: 8px; padding: 15px;">
-<h5 style="color: #1976D2; margin-top: 0;">📊 $\mathbf{a} \cdot \mathbf{b}$</h5>
+<h5 style="color: #1976D2; margin-top: 0;">📊 **a** · **b**</h5>
 <ul style="color: #424242; margin: 0;">
 <li>The dot product of vectors <strong>a</strong> and <strong>b</strong></li>
 <li>Read as "<strong style="color: #1976D2;">a dot b</strong>"</li>
-<li>The $\cdot$ symbol represents the dot product operation</li>
+<li>The · symbol represents the dot product operation</li>
 <li><strong>Bold letters</strong> indicate vectors (not scalars)</li>
 </ul>
 </div>
 
 <div style="background-color: #F3E5F5; border-radius: 8px; padding: 15px;">
-<h5 style="color: #7B1FA2; margin-top: 0;">📏 $\|a\|$, $\|b\|$</h5>
+<h5 style="color: #7B1FA2; margin-top: 0;">📏 ||**a**||, ||**b**||</h5>
 <ul style="color: #424242; margin: 0;">
 <li>The magnitude (length) of vectors</li>
-<li>Double pipes $\| \|$ mean "<strong style="color: #7B1FA2;">length of</strong>"</li>
-<li>Also written as $|\mathbf{a}|$ or **length**$(\mathbf{a})$</li>
+<li>Double pipes || || mean "<strong style="color: #7B1FA2;">length of</strong>"</li>
+<li>Also written as |**a**| or **length**(**a**)</li>
 <li>Always positive values</li>
 </ul>
 </div>
 
 <div style="background-color: #FFF3E0; border-radius: 8px; padding: 15px;">
-<h5 style="color: #F57C00; margin-top: 0;">📐 $\cos(\theta)$</h5>
+<h5 style="color: #F57C00; margin-top: 0;">📐 cos(θ)</h5>
 <ul style="color: #424242; margin: 0;">
 <li>Cosine of the angle between vectors</li>
-<li>$\cos$ is the cosine trigonometric function</li>
-<li>$\theta$ (theta) = angle between <strong>a</strong> and <strong>b</strong></li>
+<li>cos is the cosine trigonometric function</li>
+<li>θ (theta) = angle between <strong>a</strong> and <strong>b</strong></li>
 <li>Range: -1 to +1</li>
 </ul>
 </div>
@@ -382,23 +382,23 @@ $$\mathbf{a} \cdot \mathbf{b} = \|a\| \|b\| \cos(\theta)$$
 
 <h5 style="color: #D84315; margin-top: 20px;">📐 Vector Projection Formula:</h5>
 <div style="text-align: center; font-size: 1.2em; margin: 20px 0; padding: 15px; background-color: #FFEBEE; border-radius: 8px;">
-$$\mathrm{proj}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{b}\|^2} \mathbf{b}$$
+<img src="https://latex.codecogs.com/svg.latex?\mathrm{proj}_{\mathbf{b}}\mathbf{a}=\frac{\mathbf{a}\cdot\mathbf{b}}{\|\mathbf{b}\|^2}\mathbf{b}" alt="Vector Projection Formula" style="background-color: white; padding: 10px; border-radius: 5px;">
 </div>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px;">
 
 <div style="background-color: #E3F2FD; border-radius: 8px; padding: 15px;">
-<h6 style="color: #1976D2; margin-top: 0;">📊 $\mathrm{proj}_{\mathbf{b}} \mathbf{a}$</h6>
+<h6 style="color: #1976D2; margin-top: 0;">📊 proj<sub>**b**</sub> **a**</h6>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Read as "projection of <strong>a</strong> onto <strong>b</strong>"</li>
-<li>$\mathrm{proj}$ = projection operation</li>
-<li>Subscript $\mathbf{b}$ = target direction</li>
-<li>$\mathbf{a}$ = source vector</li>
+<li>proj = projection operation</li>
+<li>Subscript <strong>b</strong> = target direction</li>
+<li><strong>a</strong> = source vector</li>
 </ul>
 </div>
 
 <div style="background-color: #F3E5F5; border-radius: 8px; padding: 15px;">
-<h6 style="color: #7B1FA2; margin-top: 0;">⚫ $\mathbf{a} \cdot \mathbf{b}$</h6>
+<h6 style="color: #7B1FA2; margin-top: 0;">⚫ **a** · **b**</h6>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Dot product of vectors</li>
 <li>Measures alignment</li>
@@ -408,7 +408,7 @@ $$\mathrm{proj}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\
 </div>
 
 <div style="background-color: #E8F5E8; border-radius: 8px; padding: 15px;">
-<h6 style="color: #2E7D32; margin-top: 0;">📏 $\|\mathbf{b}\|^2$</h6>
+<h6 style="color: #2E7D32; margin-top: 0;">📏 ||**b**||²</h6>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Squared magnitude of <strong>b</strong></li>
 <li>Normalizes the projection</li>
@@ -418,7 +418,7 @@ $$\mathrm{proj}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\
 </div>
 
 <div style="background-color: #FFF3E0; border-radius: 8px; padding: 15px;">
-<h6 style="color: #F57C00; margin-top: 0;">🎯 $\mathbf{b}$</h6>
+<h6 style="color: #F57C00; margin-top: 0;">🎯 **b**</h6>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Direction vector</li>
 <li>Defines projection direction</li>
@@ -432,24 +432,24 @@ $$\mathrm{proj}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\
 
 <h5 style="color: #D84315; margin-top: 25px;">📏 Scalar Projection Formula:</h5>
 <div style="text-align: center; font-size: 1.2em; margin: 20px 0; padding: 15px; background-color: #E8F5E8; border-radius: 8px;">
-$$\mathrm{comp}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{b}\|} = \|\mathbf{a}\| \cos(\theta)$$
+<img src="https://latex.codecogs.com/svg.latex?\mathrm{comp}_{\mathbf{b}}\mathbf{a}=\frac{\mathbf{a}\cdot\mathbf{b}}{\|\mathbf{b}\|}=\|\mathbf{a}\|\cos(\theta)" alt="Scalar Projection Formula" style="background-color: white; padding: 10px; border-radius: 5px;">
 </div>
 
 <div style="background-color: #FFFFFF; border-radius: 8px; padding: 15px; margin: 15px 0;">
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
 
 <div style="background-color: #E1F5FE; border-radius: 6px; padding: 12px;">
-<h6 style="color: #0277BD; margin-top: 0; font-size: 0.9em;">📐 $\mathrm{comp}_{\mathbf{b}} \mathbf{a}$</h6>
+<h6 style="color: #0277BD; margin-top: 0; font-size: 0.9em;">📐 comp<sub>**b**</sub> **a**</h6>
 <p style="color: #424242; margin: 0; font-size: 0.8em;">Component of <strong>a</strong> in direction <strong>b</strong> (just the length)</p>
 </div>
 
 <div style="background-color: #F3E5F5; border-radius: 6px; padding: 12px;">
-<h6 style="color: #7B1FA2; margin-top: 0; font-size: 0.9em;">📏 $\|\mathbf{a}\|$</h6>
+<h6 style="color: #7B1FA2; margin-top: 0; font-size: 0.9em;">📏 ||**a**||</h6>
 <p style="color: #424242; margin: 0; font-size: 0.8em;">Magnitude of vector <strong>a</strong></p>
 </div>
 
 <div style="background-color: #FFF3E0; border-radius: 6px; padding: 12px;">
-<h6 style="color: #F57C00; margin-top: 0; font-size: 0.9em;">📐 $\cos(\theta)$</h6>
+<h6 style="color: #F57C00; margin-top: 0; font-size: 0.9em;">📐 cos(\theta)</h6>
 <p style="color: #424242; margin: 0; font-size: 0.8em;">Cosine of angle between vectors</p>
 </div>
 
@@ -611,11 +611,11 @@ $$\mathrm{comp}_{\mathbf{b}} \mathbf{a} = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\
 <h4 style="color: #7B1FA2; margin-top: 0;">📐 Formula</h4>
 <div style="background-color: #FFFFFF; border-radius: 8px; padding: 20px; margin: 15px 0;">
 <div style="text-align: center; margin-bottom: 15px;">
-<strong style="color: #673AB7;">If $A$ is an $m \times n$ matrix and $B$ is an $n \times p$ matrix, then:</strong>
+<strong style="color: #673AB7;">If **A** is an **m × n** matrix and **B** is an **n × p** matrix, then:</strong>
 </div>
 <div style="text-align: center; font-size: 1.3em; margin: 20px 0; padding: 15px; background-color: #EDE7F6; border-radius: 8px;">
-$$C = AB$$ 
-**is an** $m \times p$ **matrix**
+<img src="https://latex.codecogs.com/svg.latex?C=AB" alt="Matrix Multiplication" style="background-color: white; padding: 10px; border-radius: 5px;">
+<br><strong>is an</strong> <strong>m × p</strong> <strong>matrix</strong>
 </div>
 </div>
 
@@ -624,49 +624,49 @@ $$C = AB$$
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
 
 <div style="background-color: #E3F2FD; border-radius: 8px; padding: 15px;">
-<h5 style="color: #1976D2; margin-top: 0;">🔲 $A$, $B$, $C$</h5>
+<h5 style="color: #1976D2; margin-top: 0;">🔲 **A**, **B**, **C**</h5>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Capital letters represent matrices</li>
 <li>Rectangular arrays of numbers</li>
-<li>$C$ is the result of $A \times B$</li>
+<li>**C** is the result of **A** × **B**</li>
 </ul>
 </div>
 
 <div style="background-color: #E8F5E8; border-radius: 8px; padding: 15px;">
-<h5 style="color: #2E7D32; margin-top: 0;">📏 $m \times n$</h5>
+<h5 style="color: #2E7D32; margin-top: 0;">📏 **m × n**</h5>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
 <li>Read as "m by n"</li>
-<li>$m$ = rows in matrix $A$</li>
-<li>$n$ = columns in matrix $A$</li>
-<li>$\times$ symbol means "by"</li>
+<li>**m** = rows in matrix **A**</li>
+<li>**n** = columns in matrix **A**</li>
+<li>× symbol means "by"</li>
 </ul>
 </div>
 
 <div style="background-color: #FFF3E0; border-radius: 8px; padding: 15px;">
-<h5 style="color: #F57C00; margin-top: 0;">📐 $n \times p$</h5>
+<h5 style="color: #F57C00; margin-top: 0;">📐 **n × p**</h5>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
-<li>Dimensions of matrix $B$</li>
-<li>$n$ rows, $p$ columns</li>
-<li>Note: $n$ must match!</li>
+<li>Dimensions of matrix **B**</li>
+<li>**n** rows, **p** columns</li>
+<li>Note: **n** must match!</li>
 </ul>
 </div>
 
 <div style="background-color: #FFEBEE; border-radius: 8px; padding: 15px;">
-<h5 style="color: #D32F2F; margin-top: 0;">⚠️ $AB$ (Order Matters!)</h5>
+<h5 style="color: #D32F2F; margin-top: 0;">⚠️ **AB** (Order Matters!)</h5>
 <ul style="color: #424242; margin: 0; font-size: 0.9em;">
-<li>Matrix multiplication of $A$ and $B$</li>
-<li>Columns in $A$ = Rows in $B$</li>
-<li><strong style="color: #D32F2F;">$AB \neq BA$</strong></li>
+<li>Matrix multiplication of **A** and **B**</li>
+<li>Columns in **A** = Rows in **B**</li>
+<li><strong style="color: #D32F2F;">**AB** ≠ **BA**</strong></li>
 </ul>
 </div>
 
 </div>
 
 <div style="background-color: #FFFFFF; border-radius: 8px; padding: 15px; margin: 15px 0;">
-<h5 style="color: #673AB7; margin-top: 0;">🎯 Result Dimensions: $m \times p$</h5>
+<h5 style="color: #673AB7; margin-top: 0;">🎯 Result Dimensions: **m × p**</h5>
 <div style="background-color: #F3E5F5; border-radius: 5px; padding: 10px;">
 <p style="color: #424242; margin: 0; text-align: center;">
-<strong>Result has:</strong> Same rows as $A$ <span style="color: #673AB7;">×</span> Same columns as $B$
+<strong>Result has:</strong> Same rows as **A** <span style="color: #673AB7;">×</span> Same columns as **B**
 </p>
 </div>
 </div>
@@ -753,15 +753,15 @@ $$C = AB$$
 <strong style="color: #7B1FA2;">Q3.</strong> What kind of transformation does this matrix perform?
 
 <div style="text-align: center; font-size: 1.2em; margin: 15px 0; padding: 15px; background-color: #F3E5F5; border-radius: 8px;">
-$$\begin{bmatrix} 2 & 0 \\ 0 & 1 \end{bmatrix}$$
+<img src="https://latex.codecogs.com/svg.latex?\begin{bmatrix}2&0\\0&1\end{bmatrix}" alt="2x2 Matrix Example" style="background-color: white; padding: 10px; border-radius: 5px;">
 </div>
 
 <div style="background-color: #FFF8E1; border-radius: 5px; padding: 10px; margin: 10px 0;">
 <strong style="color: #F57C00;">📐 Matrix notation explanation:</strong>
 <ul style="color: #424242; margin: 5px 0; font-size: 0.9em;">
-<li><strong>$\begin{bmatrix} \end{bmatrix}$</strong>: Square brackets indicate a matrix</li>
+<li><strong>[ ]</strong>: Square brackets indicate a matrix</li>
 <li><strong>Rows and columns</strong>: Numbers arranged horizontally and vertically</li>
-<li><strong>$2 \times 2$ matrix</strong>: 2 rows and 2 columns</li>
+<li><strong>2 × 2 matrix</strong>: 2 rows and 2 columns</li>
 <li><strong>Matrix elements</strong>: Each number has a position (row, column)</li>
 </ul>
 </div>
@@ -774,9 +774,9 @@ $$\begin{bmatrix} 2 & 0 \\ 0 & 1 \end{bmatrix}$$
 <div style="background-color: #FFFFFF; border-radius: 8px; padding: 15px; margin: 15px 0;">
 <strong style="color: #7B1FA2;">Q4.</strong> Can matrix multiplication be commutative?
 <div style="background-color: #FFEBEE; border-left: 4px solid #F44336; padding: 10px; margin: 10px 0; border-radius: 5px;">
-<strong style="color: #D32F2F;">❌ Answer:</strong> No, $AB \ne BA$ in general
+<strong style="color: #D32F2F;">❌ Answer:</strong> No, **AB** ≠ **BA** in general
 <div style="background-color: #FFF3E0; border-radius: 3px; padding: 5px; margin: 5px 0; font-size: 0.9em;">
-<strong style="color: #F57C00;">Notation:</strong> $\ne$ means "not equal to" (≠)
+<strong style="color: #F57C00;">Notation:</strong> ≠ means "not equal to" (≠)
 </div>
 </div>
 </div>
@@ -817,7 +817,7 @@ $$\begin{bmatrix} 2 & 0 \\ 0 & 1 \end{bmatrix}$$
 
 <div style="background-color: #FFFFFF; border-radius: 8px; padding: 15px; display: flex; align-items: center;">
 <input type="checkbox" style="margin-right: 10px; transform: scale(1.2);">
-<span style="color: #424242;">I can explain why <strong style="color: #F44336;">$AB \ne BA$</strong></span>
+<span style="color: #424242;">I can explain why <strong style="color: #F44336;">**AB** ≠ **BA**</strong></span>
 </div>
 
 </div>
