@@ -1,0 +1,401 @@
+/* ========================================
+   NOTEBOOK EDUCATIONAL STYLES
+   Machine Learning Tutorial Project
+   ======================================== */
+
+/* ========================================
+   CSS CUSTOM PROPERTIES (VARIABLES)
+   ======================================== */
+:root {
+  /* Primary Text Colors - WCAG AA Compliant */
+  --text-primary: #424242;        /* Main body text */
+  --text-technical: #1976D2;      /* Technical content, definitions */
+  --text-success: #2E7D32;        /* Success messages, formulas */
+  --text-warning: #D84315;        /* Important concepts, warnings */
+  --text-advanced: #7B1FA2;       /* Mathematical concepts, advanced topics */
+  --text-error: #D32F2F;          /* Critical information, errors */
+  --text-neutral: #795548;        /* Neutral content, explanations */
+  --text-white: #FFFFFF;          /* White text for dark backgrounds only */
+
+  /* Background Colors */
+  --bg-light-blue: #E3F2FD;       /* General information containers */
+  --bg-light-green: #E8F5E8;      /* Success, formulas, positive content */
+  --bg-light-orange: #FFF3E0;     /* Examples, highlights, important sections */
+  --bg-light-purple: #F3E5F5;     /* Mathematical concepts, advanced topics */
+  --bg-light-pink: #FCE4EC;       /* Analogies, intuition, creative thinking */
+  --bg-white: #FFFFFF;            /* Content backgrounds, cards */
+  --bg-formula: #F1F8E9;          /* Mathematical formula backgrounds */
+
+  /* Accent Colors for Borders and Highlights */
+  --accent-blue: #2196F3;
+  --accent-green: #4CAF50;
+  --accent-orange: #FF9800;
+  --accent-purple: #9C27B0;
+  --accent-red: #F44336;
+  --accent-pink: #E91E63;
+
+  /* Spacing Standards */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+
+  /* Border Radius Standards */
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+
+  /* Font Sizes */
+  --font-xs: 0.8em;
+  --font-sm: 0.9em;
+  --font-base: 1em;
+  --font-lg: 1.1em;
+  --font-xl: 1.2em;
+  --font-xxl: 1.3em;
+}
+
+/* ========================================
+   SECTION HEADERS AND MAIN CONTAINERS
+   ======================================== */
+
+/* Main section header with gradient background */
+.nb-section-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  color: var(--text-white);
+  margin-bottom: var(--spacing-lg);
+}
+
+.nb-section-header h2 {
+  color: var(--text-white);
+  margin-top: 0;
+}
+
+.nb-section-header p {
+  font-size: var(--font-lg);
+  margin-bottom: 0;
+}
+
+/* ========================================
+   CONTENT CONTAINERS BY PURPOSE
+   ======================================== */
+
+/* Learning objectives container */
+.nb-learning-objectives {
+  background-color: var(--bg-light-green);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Key concepts and definitions */
+.nb-concept-definition {
+  background-color: var(--bg-light-blue);
+  border-left: 4px solid var(--accent-blue);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  border-radius: var(--radius-sm);
+}
+
+/* Important insights and key takeaways */
+.nb-insight {
+  background-color: var(--bg-light-green);
+  border-left: 4px solid var(--accent-green);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  border-radius: var(--radius-sm);
+}
+
+/* Examples and applications */
+.nb-example {
+  background-color: var(--bg-light-orange);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+/* Mathematical content containers */
+.nb-math-container {
+  background-color: var(--bg-light-purple);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Analogies and intuitive explanations */
+.nb-analogy {
+  background-color: var(--bg-light-pink);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Quiz and assessment containers */
+.nb-quiz {
+  background-color: var(--bg-light-purple);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Tutor instructions */
+.nb-tutor-instructions {
+  background-color: var(--bg-light-orange);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+/* ========================================
+   CONTENT CARDS AND SUB-CONTAINERS
+   ======================================== */
+
+/* White content cards within containers */
+.nb-card {
+  background-color: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+}
+
+.nb-card-lg {
+  background-color: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+}
+
+/* Special card with colored left border */
+.nb-card-accent {
+  background-color: var(--bg-white);
+  border-left: 4px solid var(--accent-orange);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* ========================================
+   MATHEMATICAL CONTENT
+   ======================================== */
+
+/* Formula display */
+.nb-formula {
+  text-align: center;
+  font-size: var(--font-xxl);
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md);
+  background-color: var(--bg-formula);
+  border-radius: var(--radius-md);
+}
+
+/* Formula breakdown components */
+.nb-formula-component {
+  background-color: var(--bg-light-blue);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+}
+
+/* ========================================
+   INTERACTIVE ELEMENTS
+   ======================================== */
+
+/* Quiz questions */
+.nb-quiz-question {
+  background-color: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+/* Answer containers */
+.nb-answer-correct {
+  background-color: var(--bg-light-green);
+  border-left: 4px solid var(--accent-green);
+  padding: var(--spacing-sm);
+  margin: var(--spacing-sm) 0;
+  border-radius: var(--radius-sm);
+}
+
+.nb-answer-incorrect {
+  background-color: #FFEBEE;
+  border-left: 4px solid var(--accent-red);
+  padding: var(--spacing-sm);
+  margin: var(--spacing-sm) 0;
+  border-radius: var(--radius-sm);
+}
+
+/* Checklist items */
+.nb-checklist-item {
+  background-color: var(--bg-white);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  display: flex;
+  align-items: center;
+}
+
+.nb-checklist-item input[type="checkbox"] {
+  margin-right: var(--spacing-sm);
+  transform: scale(1.2);
+}
+
+/* ========================================
+   LAYOUT UTILITIES
+   ======================================== */
+
+/* Grid layouts */
+.nb-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+}
+
+.nb-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+/* Responsive grid - stacks on mobile */
+@media (max-width: 768px) {
+  .nb-grid-2,
+  .nb-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========================================
+   TEXT STYLING CLASSES
+   ======================================== */
+
+/* Text colors - always use these for accessibility */
+.nb-text-primary { color: var(--text-primary); }
+.nb-text-technical { color: var(--text-technical); }
+.nb-text-success { color: var(--text-success); }
+.nb-text-warning { color: var(--text-warning); }
+.nb-text-advanced { color: var(--text-advanced); }
+.nb-text-error { color: var(--text-error); }
+.nb-text-neutral { color: var(--text-neutral); }
+
+/* Font sizes */
+.nb-text-xs { font-size: var(--font-xs); }
+.nb-text-sm { font-size: var(--font-sm); }
+.nb-text-lg { font-size: var(--font-lg); }
+.nb-text-xl { font-size: var(--font-xl); }
+.nb-text-xxl { font-size: var(--font-xxl); }
+
+/* ========================================
+   COMPONENT-SPECIFIC STYLES
+   ======================================== */
+
+/* Headers within containers */
+.nb-header-warning { color: var(--text-warning); }
+.nb-header-technical { color: var(--text-technical); }
+.nb-header-success { color: var(--text-success); }
+.nb-header-advanced { color: var(--text-advanced); }
+.nb-header-error { color: var(--text-error); }
+
+/* Remove default margins from headers in containers */
+.nb-card h4,
+.nb-card h5,
+.nb-card h6 {
+  margin-top: 0;
+}
+
+/* List styling within containers */
+.nb-card ul,
+.nb-card ol {
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* Ensure all text has proper color */
+.nb-card p,
+.nb-card span:not([style*="color"]) {
+  color: var(--text-primary);
+}
+
+/* ========================================
+   TEXT ALIGNMENT UTILITIES
+   ======================================== */
+
+/* Text alignment classes */
+.nb-text-center { text-align: center; }
+.nb-text-left { text-align: left; }
+.nb-text-right { text-align: right; }
+
+/* Margin utility classes */
+.nb-margin-top-sm { margin-top: var(--spacing-sm); }
+.nb-margin-top-md { margin-top: var(--spacing-md); }
+.nb-margin-top-lg { margin-top: var(--spacing-lg); }
+.nb-margin-bottom-sm { margin-bottom: var(--spacing-sm); }
+.nb-margin-bottom-md { margin-bottom: var(--spacing-md); }
+.nb-margin-bottom-lg { margin-bottom: var(--spacing-lg); }
+.nb-margin-0 { margin: 0; }
+.nb-margin-top-0 { margin-top: 0; }
+.nb-margin-bottom-0 { margin-bottom: 0; }
+
+/* Padding utility classes */
+.nb-padding-sm { padding: var(--spacing-sm); }
+.nb-padding-md { padding: var(--spacing-md); }
+.nb-padding-lg { padding: var(--spacing-lg); }
+
+/* Border utility classes */
+.nb-border-radius-sm { border-radius: var(--radius-sm); }
+.nb-border-radius-md { border-radius: var(--radius-md); }
+.nb-border-radius-lg { border-radius: var(--radius-lg); }
+
+/* Display utility classes */
+.nb-grid-custom { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: var(--spacing-md); 
+}
+
+/* Background utility classes for specific containers */
+.nb-bg-success-light { 
+  background-color: var(--bg-light-green); 
+  border-radius: var(--radius-md); 
+  padding: var(--spacing-md); 
+}
+
+.nb-bg-warning-light { 
+  background-color: var(--bg-light-orange); 
+  border-radius: var(--radius-md); 
+  padding: var(--spacing-md); 
+}
+
+.nb-bg-advanced-light { 
+  background-color: var(--bg-light-purple); 
+  border-radius: var(--radius-lg); 
+  padding: var(--spacing-lg); 
+}
+
+.nb-bg-analogy-light { 
+  background-color: var(--bg-light-pink); 
+  border-radius: var(--radius-lg); 
+  padding: var(--spacing-lg); 
+}
+
+/* ========================================
+   ACCESSIBILITY UTILITIES
+   ======================================== */
+
+/* Screen reader only content */
+.nb-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus indicators for interactive elements */
+.nb-checklist-item input:focus,
+button:focus {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
