@@ -314,6 +314,11 @@
   color: var(--text-primary);
 }
 
+/* Data example containers with monospace font */
+.nb-data-example {
+  font-family: monospace;
+}
+
 /* ========================================
    TEXT ALIGNMENT UTILITIES
    ======================================== */
