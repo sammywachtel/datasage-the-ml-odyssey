@@ -48,9 +48,9 @@ Vectors allow us to place data points in multi-dimensional spaces where:
 All core ML operations are vector operations:
 <ul style="color: #424242;">
 <li><strong style="color: #4CAF50;">Similarity</strong>: Dot products measure how alike two data points are</li>
-<li><strong style="color: #4CAF50;">Transformations</strong>: Matrices transform data from one representation to another</li>
-<li><strong style="color: #4CAF50;">Learning</strong>: Neural networks are chains of vector transformations</li>
-<li><strong style="color: #4CAF50;">Optimization</strong>: Gradient descent moves through vector spaces to find optimal solutions</li>
+<li><strong style="color: #4CAF50;">Transformations</strong>: Matrices transform data from one representation to another (e.g., rotating images, encoding data, changing feature spaces)</li>
+<li><strong style="color: #4CAF50;">Learning</strong>: Neural networks are chains of vector transformations (e.g., input image [64x64] → hidden layer [128] → output [10] classes)</li>
+<li><strong style="color: #4CAF50;">Optimization</strong>: Gradient descent moves through vector spaces to find optimal solutions (e.g., adjusting weights [-0.5, 0.3, 1.2] to reduce prediction error)</li>
 </ul>
 </div>
 
@@ -192,7 +192,7 @@ y ↑
 3 | .  .  .  │  .  .
 2 | .  .  .  │  .  .
 1 | .  .  .  │  .  .
-0 ||||| ●────────┘  .  .      ← vector base at (0, 0)
+0 | ●────────┘  .  .      ← vector base at (0, 0)
     0  1  2  3  4  5 → x
 
 Length = √(3² + 4²) = √25 = 5  
@@ -322,7 +322,7 @@ Combines transformations. Order matters (<span style="color: #F44336; font-famil
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px;">
 
 <div style="background-color: #E3F2FD; border-radius: 8px; padding: 15px;">
-<h5 style="color: #1976D2; margin-top: 0;">📊 **a** · **b**</h5>
+<h5 style="color: #1976D2; margin-top: 0;">📊 a · b</h5>
 <ul style="color: #424242; margin: 0;">
 <li>The dot product of vectors <strong>a</strong> and <strong>b</strong></li>
 <li>Read as "<strong style="color: #1976D2;">a dot b</strong>"</li>
@@ -332,11 +332,11 @@ Combines transformations. Order matters (<span style="color: #F44336; font-famil
 </div>
 
 <div style="background-color: #F3E5F5; border-radius: 8px; padding: 15px;">
-<h5 style="color: #7B1FA2; margin-top: 0;">📏 ||**a**||, ||**b**||</h5>
+<h5 style="color: #7B1FA2; margin-top: 0;">📏 ||<b>a</b>||, ||<b>b</b>||</h5>
 <ul style="color: #424242; margin: 0;">
 <li>The magnitude (length) of vectors</li>
 <li>Double pipes || || mean "<strong style="color: #7B1FA2;">length of</strong>"</li>
-<li>Also written as |**a**| or **length**(**a**)</li>
+<li>Also written as |<b>a</b>| (informal) or length(<b>a</b>)</li>
 <li>Always positive values</li>
 </ul>
 </div>
@@ -370,7 +370,8 @@ Combines transformations. Order matters (<span style="color: #F44336; font-famil
 <div style="background-color: #FFF3E0; border-radius: 10px; padding: 20px; margin: 20px 0;">
 
 <div style="background-color: #FFFFFF; border-left: 4px solid #FF5722; padding: 20px; border-radius: 5px; margin-bottom: 20px;">
-<strong style="color: #D84315; font-size: 1.1em;">Vector projection</strong> is one of the most important concepts in linear algebra and machine learning. It answers the question: <strong style="color: #FF5722;">"How much of vector <strong>a</strong> lies in the direction of vector <strong>b</strong>?"</strong>
+<strong style="color: #D84315; font-size: 1.1em;">Vector projection</strong> is one of the most important concepts in linear algebra and machine learning.<br/>
+It answers the question: <strong style="color: #FF5722;">"How much of vector <strong>a</strong> lies in the direction of vector <strong>b</strong>?"</strong>
 </div>
 
 #### 🔍 <span style="color: #E65100;">What is Vector Projection?</span>
