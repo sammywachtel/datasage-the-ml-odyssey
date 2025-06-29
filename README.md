@@ -2,9 +2,6 @@
 
 Welcome to a comprehensive Machine Learning Tutorial designed to take you from mathematical foundations to cutting-edge applications! This tutorial provides a structured, hands-on approach to mastering machine learning concepts, algorithms, and practical implementation.
 
-## 🌐 Viewing on GitHub
-**Important for GitHub users**: To view the notebooks in their properly formatted, stylized appearance on GitHub, please view the **HTML files** (`.html`) located within each respective module folder. These HTML exports preserve the notebook's formatting, equations, and visualizations that may not display correctly when viewing the raw `.ipynb` files directly on GitHub.
-
 ## 🎯 Project Purpose & Audience
 
 This tutorial is designed for:
